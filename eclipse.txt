@@ -1,0 +1,2 @@
+eclipse 中 如果加入了 其他了xfire 等其他xml解析包的话,使用org.w3c.dom.Node下的getTextContent()方法会出现The method getTextContent() is undefined for the type Node 提示,解决方法如下:
+project-->properties->Java build path-->order and export  把JRE System 提升到顶部既可,前提记得是Java版本是jdk1.5以上
